@@ -1,6 +1,12 @@
 # FXMacroData for LibreChat
 
-Install native economic research tools and Skills in LibreChat. The package exposes all 23 REST operations and 49 MCP tools in its public discovery snapshot, with source-linked tables and complete structured responses.
+Use your FXMacroData subscription in LibreChat research conversations to compare covered currencies, explore full available indicator histories and analyse release calendars. Native tools and Skills return source-linked tables and complete structured responses for your research.
+
+**[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=librechat_subscribe)** for access to covered non-USD datasets and full available history.
+
+Evaluate the plugin before subscribing with public USD catalogue, recent history (currently a rolling 90-day window) and release calendars, which require no FXMacroData account or key.
+
+The package exposes all 23 REST operations and 49 MCP tools in its public discovery snapshot.
 
 [FXMacroData](https://fxmacrodata.com/?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=librechat_readme) · [API reference](https://fxmacrodata.com/documentation/reference?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=librechat_docs)
 
@@ -17,9 +23,9 @@ Use your configured `DEPLOYMENT_PLUGINS_DIR` when it differs from `plugin`. The 
 
 Enable the FXMacroData tools and the `fxmacrodata-macro-brief` or `fxmacrodata-series-research` deployment Skill in the normal Agent/Skills interface. Ask for a USD macro briefing or a source-linked release calendar. The tools are also available through LibreChat's MCP tool picker. Normal LibreChat model configuration is independent of data access.
 
-The default plugin uses public access without reading credentials. USD catalogue, recent history (currently a rolling 90-day window) and release calendars require no FXMacroData account or key. Other data may require authorized access.
+The default plugin uses public access without reading credentials. Connect your subscription below to use protected datasets.
 
-## Optional authenticated access
+## Connect your subscription
 
 Merge the server entry from `authenticated.librechat.yaml` into your existing operator configuration, then restart LibreChat. Enter your key through its sensitive MCP variable setting. This overrides only the default anonymous server connection; the installed tools and Skills remain available. Do not put a key in the YAML, plugin files, prompts, command arguments or source control. Each authenticated connection receives its user's credential through the host's runtime environment.
 
