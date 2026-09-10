@@ -1,0 +1,29 @@
+{
+  "files": [
+    "CAPABILITIES.md",
+    "LICENSE",
+    "MANIFEST.in",
+    "PUBLIC_FILES.json",
+    "README.md",
+    "authenticated.librechat.yaml",
+    "pyproject.toml",
+    "src/librechat_fxmacrodata/__init__.py",
+    "src/librechat_fxmacrodata/_client/LICENSE",
+    "src/librechat_fxmacrodata/_client/__init__.py",
+    "src/librechat_fxmacrodata/_client/client.py",
+    "src/librechat_fxmacrodata/_client/mcp-tools.json",
+    "src/librechat_fxmacrodata/_client/operations.json",
+    "src/librechat_fxmacrodata/_client/py.typed",
+    "src/librechat_fxmacrodata/_client/transport.py",
+    "src/librechat_fxmacrodata/plugin/mcp.json",
+    "src/librechat_fxmacrodata/plugin/plugin.json",
+    "src/librechat_fxmacrodata/plugin/skills/fxmacrodata-macro-brief/SKILL.md",
+    "src/librechat_fxmacrodata/plugin/skills/fxmacrodata-series-research/SKILL.md",
+    "src/librechat_fxmacrodata/py.typed",
+    "src/librechat_fxmacrodata/server.py",
+    "src/librechat_fxmacrodata/response_safety.py",
+    "tests/test_bridge.py",
+    "tests/test_transport.py",
+    "tests/transport_fixtures.py"
+  ]
+}

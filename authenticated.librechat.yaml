@@ -1,0 +1,19 @@
+# Merge this server entry into the operator's existing librechat.yaml.
+# The installed plugin and its Skills remain in place.
+mcpServers:
+  fxmacrodata:
+    title: FXMacroData
+    description: Economic research, FX data and release calendars
+    type: stdio
+    command: fxmacrodata-librechat
+    args: []
+    startup: false
+    timeout: 120000
+    serverInstructions: true
+    env:
+      FXMACRODATA_API_KEY: '{{FXMACRODATA_API_KEY}}'
+    customUserVars:
+      FXMACRODATA_API_KEY:
+        title: FXMacroData API key
+        description: Optional authorized data access. Manage your key at https://fxmacrodata.com.
+        sensitive: true

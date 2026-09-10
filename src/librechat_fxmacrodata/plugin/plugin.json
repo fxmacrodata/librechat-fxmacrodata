@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fxmacrodata",
+  "version": "0.1.0",
+  "description": "Economic research, FX data and release calendars with native tools and research Skills.",
+  "author": {"name": "FXMacroData", "url": "https://fxmacrodata.com"},
+  "homepage": "https://fxmacrodata.com/?utm_source=librechat&utm_medium=integration&utm_campaign=open_source_integrations&utm_content=app",
+  "license": "MIT",
+  "keywords": ["economics", "fx", "macro", "research", "calendar"]
+}

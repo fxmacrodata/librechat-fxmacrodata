@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "librechat-fxmacrodata"
+version = "0.1.0"
+description = "Native LibreChat tools and Skills for FXMacroData"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = ["mcp>=1.27.2,<2", "requests>=2.32,<3", "jsonschema>=4.23,<5"]
+
+[project.urls]
+Homepage = "https://fxmacrodata.com"
+Documentation = "https://fxmacrodata.com/documentation/reference"
+
+[project.scripts]
+fxmacrodata-librechat = "librechat_fxmacrodata.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+librechat_fxmacrodata = ["plugin/*.json", "plugin/skills/*/*.md", "py.typed"]
+"librechat_fxmacrodata._client" = ["*.json", "py.typed", "LICENSE"]
