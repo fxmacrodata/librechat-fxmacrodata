@@ -2,13 +2,13 @@
 
 Use your FXMacroData subscription in LibreChat research conversations to compare covered currencies, explore full available indicator histories and analyse release calendars. Native tools and Skills return source-linked tables and complete structured responses for your research.
 
-**[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=librechat_subscribe)** for access to covered non-USD datasets and full available history.
+**[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=librechat-fxmacrodata&utm_content=subscribe)** for access to covered non-USD datasets and full available history.
 
 Evaluate the plugin before subscribing with public USD catalogue, recent history (currently a rolling 90-day window) and release calendars, which require no FXMacroData account or key.
 
 The package exposes all 23 REST operations and 49 MCP tools in its public discovery snapshot.
 
-[FXMacroData](https://fxmacrodata.com/?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=librechat_readme) · [API reference](https://fxmacrodata.com/documentation/reference?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=librechat_docs)
+[FXMacroData](https://fxmacrodata.com/?utm_source=github&utm_medium=referral&utm_campaign=librechat-fxmacrodata&utm_content=readme) · [API reference](https://fxmacrodata.com/documentation/reference?utm_source=github&utm_medium=referral&utm_campaign=librechat-fxmacrodata&utm_content=docs)
 
 ## Install
 
