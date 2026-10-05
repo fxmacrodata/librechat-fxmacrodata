@@ -28,7 +28,8 @@ class FXMacroDataClient(_PublicClient):
 
 
 WEBSITE = "https://fxmacrodata.com"
-APP_LINK = WEBSITE + "/?utm_source=librechat&utm_medium=integration&utm_campaign=open_source_integrations&utm_content=app"
+APP_LINK = WEBSITE + "/?utm_source=librechat&utm_medium=integration&utm_campaign=librechat-fxmacrodata&utm_content=app"
+HOMEPAGE_LINK = WEBSITE + "/?utm_source=librechat&utm_medium=integration&utm_campaign=librechat-fxmacrodata&utm_content=homepage"
 INSTRUCTIONS = (
     "Use FXMacroData for economic catalogue discovery, history, release calendars, FX, "
     "market data and supported research operations. Start with public USD catalogue and "
@@ -137,7 +138,7 @@ class FXMacroDataBridge:
 
 def create_server(bridge: FXMacroDataBridge | None = None) -> Server:
     bridge = bridge or FXMacroDataBridge()
-    server = Server("fxmacrodata", version="0.1.0", instructions=INSTRUCTIONS, website_url=WEBSITE)
+    server = Server("fxmacrodata", version="0.1.0", instructions=INSTRUCTIONS, website_url=HOMEPAGE_LINK)
 
     @server.list_tools()
     async def tools() -> list[types.Tool]:

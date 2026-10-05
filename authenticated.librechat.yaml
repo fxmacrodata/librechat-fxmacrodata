@@ -15,5 +15,5 @@ mcpServers:
     customUserVars:
       FXMACRODATA_API_KEY:
         title: FXMacroData API key
-        description: Optional authorized data access. Manage your key at https://fxmacrodata.com.
+        description: Optional authorized data access. Manage your key at https://fxmacrodata.com/subscribe?utm_source=librechat&utm_medium=integration&utm_campaign=librechat-fxmacrodata&utm_content=subscribe.
         sensitive: true
